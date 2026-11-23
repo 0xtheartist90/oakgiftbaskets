@@ -8,8 +8,7 @@ const withBundleAnalyzer = initializeBundleAnalyzer({
 });
 
 // https://nextjs.org/docs/pages/api-reference/next-config-js
-const nextConfig: NextConfig = {
-    output: 'standalone'
-};
+// No `output: 'standalone'`: that is for the Docker image; Vercel builds Next.js itself.
+const nextConfig: NextConfig = {};
 
 export default withBundleAnalyzer(nextConfig);
