@@ -1,0 +1,254 @@
+{
+ "fico-e-pistacchio": {
+  "w": 1312,
+  "h": 1199,
+  "variants": [
+   {
+    "src": "/images/fico-e-pistacchio-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/fico-e-pistacchio-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "il-fumo": {
+  "w": 1312,
+  "h": 1199,
+  "variants": [
+   {
+    "src": "/images/il-fumo-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/il-fumo-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "insieme-e-piu-bello": {
+  "w": 1312,
+  "h": 1199,
+  "variants": [
+   {
+    "src": "/images/insieme-e-piu-bello-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/insieme-e-piu-bello-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "l-arte-di-regalare": {
+  "w": 1254,
+  "h": 1254,
+  "variants": [
+   {
+    "src": "/images/l-arte-di-regalare-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/l-arte-di-regalare-lg.webp",
+    "w": 1254
+   }
+  ]
+ },
+ "la-dolce-notte": {
+  "w": 1312,
+  "h": 1199,
+  "variants": [
+   {
+    "src": "/images/la-dolce-notte-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/la-dolce-notte-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "lo-canapes": {
+  "w": 1500,
+  "h": 1500,
+  "variants": [
+   {
+    "src": "/images/lo-canapes-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-canapes-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "lo-chandelier-event": {
+  "w": 2666,
+  "h": 1500,
+  "variants": [
+   {
+    "src": "/images/lo-chandelier-event-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-chandelier-event-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "lo-cocktails-tray": {
+  "w": 1920,
+  "h": 1280,
+  "variants": [
+   {
+    "src": "/images/lo-cocktails-tray-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-cocktails-tray-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "lo-grazing": {
+  "w": 1920,
+  "h": 1280,
+  "variants": [
+   {
+    "src": "/images/lo-grazing-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-grazing-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "lo-private-gathering": {
+  "w": 1000,
+  "h": 665,
+  "variants": [
+   {
+    "src": "/images/lo-private-gathering-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-private-gathering-lg.webp",
+    "w": 1000
+   }
+  ]
+ },
+ "lo-table-service": {
+  "w": 1500,
+  "h": 1875,
+  "variants": [
+   {
+    "src": "/images/lo-table-service-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/lo-table-service-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "team-christina-brown": {
+  "w": 1080,
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/images/team-christina-brown-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/team-christina-brown-lg.webp",
+    "w": 1080
+   }
+  ]
+ },
+ "team-daniele-corona": {
+  "w": 1500,
+  "h": 1500,
+  "variants": [
+   {
+    "src": "/images/team-daniele-corona-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/team-daniele-corona-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "team-davide-ciavattella": {
+  "w": 1500,
+  "h": 1500,
+  "variants": [
+   {
+    "src": "/images/team-davide-ciavattella-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/team-davide-ciavattella-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "team-jacob-martin": {
+  "w": 1080,
+  "h": 1080,
+  "variants": [
+   {
+    "src": "/images/team-jacob-martin-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/team-jacob-martin-lg.webp",
+    "w": 1080
+   }
+  ]
+ },
+ "team-michael-ewing": {
+  "w": 2666,
+  "h": 1500,
+  "variants": [
+   {
+    "src": "/images/team-michael-ewing-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/team-michael-ewing-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "una-dolce-attesa": {
+  "w": 1312,
+  "h": 1199,
+  "variants": [
+   {
+    "src": "/images/una-dolce-attesa-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/una-dolce-attesa-lg.webp",
+    "w": 1280
+   }
+  ]
+ },
+ "una-serata-da-ricordare": {
+  "w": 1254,
+  "h": 1254,
+  "variants": [
+   {
+    "src": "/images/una-serata-da-ricordare-sm.webp",
+    "w": 720
+   },
+   {
+    "src": "/images/una-serata-da-ricordare-lg.webp",
+    "w": 1254
+   }
+  ]
+ }
+}
