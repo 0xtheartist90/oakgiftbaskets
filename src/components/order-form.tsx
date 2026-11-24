@@ -98,9 +98,9 @@ export function OrderForm() {
             return;
         }
 
-        // No endpoint yet: open a ready-to-send email to Melissa with everything filled in.
+        // No endpoint yet: open a ready-to-send email to the catering team with everything filled in.
         const body = [
-            `Hi ${site.contactName},`,
+            `Hi ${site.teamName},`,
             '',
             'I would like to order:',
             ...orderLines,
@@ -125,7 +125,7 @@ export function OrderForm() {
             <div className='form-done' role='status'>
                 <p className='form-done-title'>Thank you, your order request is in.</p>
                 <p>
-                    {site.contactName} will be in touch to confirm the details. Questions in the meantime? Call{' '}
+                    Our {site.teamName} will be in touch to confirm the details. Questions in the meantime? Call{' '}
                     <a href={`tel:${site.phone.tel}`}>{site.phone.display}</a>.
                 </p>
             </div>
@@ -198,17 +198,17 @@ export function OrderForm() {
                 </button>
                 <p className='form-note'>
                     {pending.orderEndpoint
-                        ? `${site.contactName} confirms availability, delivery and payment with you. Nothing is charged yet.`
-                        : `This opens an email to ${site.contactName} with your order filled in. Nothing is charged yet.`}
+                        ? `Our ${site.teamName} confirms availability, delivery and payment with you. Nothing is charged yet.`
+                        : `This opens an email to our ${site.teamName} with your order filled in. Nothing is charged yet.`}
                 </p>
                 {status === 'mail' && (
                     <p className='form-note form-note-ok' role='status'>
-                        Your email app should open now. If it did not, email {site.email} or call {site.phone.display}.
+                        Your email app should open now. If it did not, call our {site.teamName} at {site.phone.display}.
                     </p>
                 )}
                 {status === 'error' && (
                     <p className='form-note form-note-err' role='alert'>
-                        Sending failed. Please call {site.phone.display} or email {site.email}.
+                        Sending failed. Please call our {site.teamName} at {site.phone.display}.
                     </p>
                 )}
             </div>

@@ -6,7 +6,7 @@ export const site = {
     gtmId: 'GTM-KNHTCSVW',
     phone: { display: '416.575.4619', tel: '+14165754619' },
     email: 'melissa@libertygroup.com',
-    contactName: 'Melissa',
+    teamName: 'Liberty Oak Catering Team',
     address: 'Exhibition Place, 25 British Columbia Rd, Toronto, ON M6K 3C3',
     title: 'Holiday Gift Baskets 2026 | Liberty Oak Catering & Events',
     description:
@@ -116,7 +116,7 @@ export const cocktails: Product[] = [
 export function orderMailto(product?: Product) {
     const subject = product ? `Holiday order: ${product.name} ($${product.price})` : 'Holiday gift basket order';
     const body = [
-        `Hi ${site.contactName},`,
+        `Hi ${site.teamName},`,
         '',
         product ? `I would like to order: ${product.name} ($${product.price})` : 'I would like to order:',
         'Quantity:',
@@ -137,7 +137,7 @@ export const pending = {
     /** e.g. 'Every gift includes a personal card with your message.' Shows on the cards and in the form. */
     cardNote: null as string | null,
     /**
-     * Where the order form posts JSON. Empty: the form opens a ready-to-send email to Melissa instead.
+     * Where the order form posts JSON. Empty: the form opens a ready-to-send email to the catering team instead.
      * Set NEXT_PUBLIC_ORDER_ENDPOINT (a Formspree URL or this site's own API route) once it is decided.
      */
     orderEndpoint: process.env.NEXT_PUBLIC_ORDER_ENDPOINT ?? ''
@@ -149,7 +149,7 @@ export type Faq = { q: string; a: string };
 export const faqs: Faq[] = [
     {
         q: 'How do I order?',
-        a: `Call ${site.contactName} at ${site.phone.display}, email ${site.email}, or send the order form on this page. ${site.contactName} confirms the details with you.`
+        a: `Reach out to our ${site.teamName}: call ${site.phone.display}, email us, or send the order form on this page. Our team confirms the details with you.`
     },
     {
         q: 'How much is delivery?',
@@ -169,7 +169,7 @@ export const faqs: Faq[] = [
     },
     {
         q: 'Can I order several gifts at once?',
-        a: `Yes. Add as many different gifts as you like, each with its own quantity, and send them as one order. For several delivery addresses, list which gift goes where in the notes, or call ${site.contactName}.`
+        a: `Yes. Add as many different gifts as you like, each with its own quantity, and send them as one order. For several delivery addresses, list which gift goes where in the notes, or call our ${site.teamName} at ${site.phone.display}.`
     }
 ];
 

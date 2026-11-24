@@ -440,7 +440,6 @@ html.scrolled .nav { background: rgb(28 40 25 / 0.94); backdrop-filter: blur(10p
 .closing-title { margin: 0 auto 12px; max-width: 46rem; font-size: clamp(2.2rem, 1.4rem + 3vw, 4rem); line-height: 1.06; color: #fff; }
 .closing-title em { color: var(--gold-light); }
 .closing p { margin: 0 0 30px; font-family: var(--font-display), Georgia, serif; font-style: italic; font-size: 1.15rem; opacity: 0.85; }
-.closing .btn-ghost span { text-transform: none; letter-spacing: 0.04em; font-size: 0.86rem; }
 
 /* Footer */
 .footer { background: var(--green-ink); color: rgb(255 248 235 / 0.82); padding: 56px 0 calc(28px + 76px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line-gold); }

@@ -47,7 +47,6 @@ const jsonLd = {
         '@type': 'LocalBusiness',
         name: site.name,
         telephone: site.phone.tel,
-        email: site.email,
         address: site.address,
         url: site.url
     },
@@ -363,15 +362,15 @@ export default function Page() {
                                 Sending more than one?
                             </h2>
                             <p>
-                                Share your list with {site.contactName}: which baskets, how many and where they go. She
-                                will put the whole order together with you.
+                                Reach out to our {site.teamName} with your list: which baskets, how many and where they
+                                go. We will put the whole order together with you.
                             </p>
                         </div>
                         <div className='corporate-actions'>
                             <CallButton where='corporate' label={`Call ${site.phone.display}`} className='btn btn-green' />
                             <a href={orderMailto()} className='btn btn-line-dark' data-cta='email_corporate'>
                                 <MailIcon />
-                                <span>Email {site.contactName}</span>
+                                <span>Email Our Team</span>
                             </a>
                         </div>
                     </div>
@@ -396,13 +395,13 @@ export default function Page() {
                                 <ChatIcon />
                                 <h3>Call or email</h3>
                                 <p>
-                                    Reach {site.contactName} at{' '}
+                                    Reach out to our {site.teamName} at{' '}
                                     <a href={`tel:${site.phone.tel}`} data-cta='call_steps'>
                                         {site.phone.display}
                                     </a>{' '}
                                     or{' '}
                                     <a href={orderMailto()} data-cta='email_steps'>
-                                        {site.email}
+                                        by email
                                     </a>{' '}
                                     with the address and date.
                                 </p>
@@ -443,8 +442,8 @@ export default function Page() {
                                 Start your <em>holiday order.</em>
                             </h2>
                             <p>
-                                Tell us what you would like and where it goes. {site.contactName} confirms availability,
-                                delivery and payment with you.
+                                Tell us what you would like and where it goes. Our {site.teamName}{' '}
+                                confirms availability, delivery and payment with you.
                             </p>
                             {pending.orderDeadline && (
                                 <p className='deadline'>
@@ -458,7 +457,7 @@ export default function Page() {
                                     <PhoneIcon /> {site.phone.display}
                                 </a>
                                 <a href={orderMailto()} data-cta='email_form'>
-                                    <MailIcon /> {site.email}
+                                    <MailIcon /> Email Our Team
                                 </a>
                             </div>
                         </div>
@@ -498,12 +497,12 @@ export default function Page() {
                         <h2 id='closing-title' className='closing-title'>
                             Give something <em>worth gathering around.</em>
                         </h2>
-                        <p>Order your holiday gifts with {site.contactName} today.</p>
+                        <p>Reach out to our {site.teamName} to order your holiday gifts.</p>
                         <div className='hero-actions center'>
                             <CallButton where='closing' label={`Call ${site.phone.display}`} />
                             <a href={orderMailto()} className='btn btn-ghost' data-cta='email_closing'>
                                 <MailIcon />
-                                <span>{site.email}</span>
+                                <span>Email Our Team</span>
                             </a>
                         </div>
                     </div>
@@ -520,7 +519,7 @@ export default function Page() {
                                 {site.phone.display}
                             </a>
                             <a href={orderMailto()} data-cta='email_footer'>
-                                {site.email}
+                                Email Our Team
                             </a>
                         </div>
                         <div>

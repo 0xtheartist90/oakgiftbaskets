@@ -20,7 +20,7 @@ The page is built from the Holiday Gifting 2026 PDF. These answers decide what e
     - (a) An email to melissa@libertygroup.com (we set up a free Resend account for this)
     - (b) A Formspree form
     - (c) A separate Tripleseat lead form for gift orders (please share the form ID)
-11. Besides Melissa, should anyone else receive a copy of each order?
+11. Orders still go to melissa@libertygroup.com, although the page now says "Liberty Oak Catering Team". Should they go to a general address instead, and should anyone receive a copy?
 
 ## Copy and brand approval
 12. **Team on the page:** may we show Michael Ewing, Davide Ciavattella, Daniele Corona, Christina Brown and Jacob Martin, with the photos and titles from the main landing page?
