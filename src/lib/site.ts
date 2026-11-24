@@ -169,7 +169,7 @@ export const faqs: Faq[] = [
     },
     {
         q: 'Can I order several gifts at once?',
-        a: `Yes. Send ${site.contactName} your list, with which gifts, how many and where each one goes, and the order is put together with you.`
+        a: `Yes. Add as many different gifts as you like, each with its own quantity, and send them as one order. For several delivery addresses, list which gift goes where in the notes, or call ${site.contactName}.`
     }
 ];
 

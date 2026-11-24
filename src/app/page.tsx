@@ -2,6 +2,7 @@ import { ChatIcon, GiftIcon, MailIcon, PhoneIcon, Sprig, TruckIcon } from '@/com
 import { Lightbox, PageEffects } from '@/components/page-effects';
 import { ProductImg, largestSrc } from '@/components/product-img';
 import { SmoothScroll } from '@/components/smooth-scroll';
+import { AddToOrder, OrderLink, ReviewLink } from '@/components/order-controls';
 import { OrderForm } from '@/components/order-form';
 import { type Product, baskets, cocktails, delivery, faqs, orderMailto, pending, site } from '@/lib/site';
 
@@ -103,10 +104,9 @@ function ProductCard({ p, kind }: { p: Product; kind: 'basket' | 'cocktail' }) {
                             Call<span className='hide-sm'> to Order</span>
                         </span>
                     </a>
-                    <a href='#order-form' className='btn btn-line' data-gift={p.id} data-cta={`order_${p.id}`}>
-                        <span>Order Online</span>
-                    </a>
+                    <AddToOrder id={p.id} name={p.name} />
                 </div>
+                <ReviewLink id={p.id} />
                 {pending.cardNote && <p className='card-note'>{pending.cardNote}</p>}
             </div>
         </article>
@@ -147,9 +147,7 @@ export default function Page() {
                         <img src='/images/logo-wide.webp' alt='Liberty Oak' width={615} height={96} />
                     </a>
                     <div className='nav-end'>
-                        <a href='#order-form' className='btn btn-ghost btn-sm nav-order' data-cta='order_nav'>
-                            Order Online
-                        </a>
+                        <OrderLink className='btn btn-ghost btn-sm nav-order' cta='order_nav' />
                         <CallButton where='nav' label={site.phone.display} className='btn btn-gold btn-sm nav-call' />
                         <a
                             href={`tel:${site.phone.tel}`}
@@ -543,9 +541,7 @@ export default function Page() {
                     <PhoneIcon />
                     <span>Call to Order</span>
                 </a>
-                <a href='#order-form' className='btn btn-line' data-cta='order_mobile_bar'>
-                    <span>Order Online</span>
-                </a>
+                <OrderLink className='btn btn-line' cta='order_mobile_bar' />
             </div>
         </>
     );
